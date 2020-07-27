@@ -8,7 +8,7 @@ class EmulatorScene: SKScene {
     let emulatorCore = PVNESEmulatorCore()
     let fpsLabelNode: SKLabelNode = SKLabelNode()
     var shouldShowFPS = false
-    private let controllerNode = SKSpriteNode(imageNamed: "controller")
+    //private let controllerNode = SKSpriteNode(imageNamed: "controller")
     
     override func sceneDidLoad() {
         super.sceneDidLoad()
@@ -19,9 +19,10 @@ class EmulatorScene: SKScene {
         addChild(sprite)
         emulatorCore.startEmulation()
         emulatorCore.setPauseEmulation(false)
-        
-        controllerNode.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        addChild(controllerNode)
+
+        // Don't need this.
+        //controllerNode.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        //addChild(controllerNode)
         
         fpsLabelNode.fontSize = 32
         fpsLabelNode.fontColor = UIColor.red
@@ -31,8 +32,7 @@ class EmulatorScene: SKScene {
     }
     
     override func didChangeSize(_ oldSize: CGSize) {
-        controllerNode.position = CGPoint(x: frame.width / 2.0,
-                                          y: frame.height / 2.0)
+        //controllerNode.position = CGPoint(x: frame.width / 2.0, y: frame.height / 2.0)
     
         let canvasSize = emulatorCore.bufferSize()
         let scale = min(size.width / canvasSize.width, size.height / canvasSize.height)
