@@ -13,7 +13,7 @@ class EmulatorScene: SKScene {
     override func sceneDidLoad() {
         super.sceneDidLoad()
         
-        let rom = Bundle.main.path(forResource: "smb3", ofType: "nes")
+        let rom = Bundle.main.path(forResource: "bomberman", ofType: "nes")
         emulatorCore.loadFile(atPath: rom)
         
         addChild(sprite)

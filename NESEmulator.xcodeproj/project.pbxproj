@@ -21,6 +21,7 @@
 		0737CB0A1E1A5127003D8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737CB091E1A5127003D8DF8 /* Assets.xcassets */; };
 		0737D1B61E1A940F003D8DF8 /* EmulatorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737D1B51E1A940F003D8DF8 /* EmulatorScene.swift */; };
 		0777F4081E1B9D9A0041C611 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737D1D11E1AB120003D8DF8 /* AudioPlayer.swift */; };
+		07B3C4BA24CF1F3500A36FC8 /* bomberman.nes in Resources */ = {isa = PBXBuildFile; fileRef = 07B3C4B824CF1F3500A36FC8 /* bomberman.nes */; };
 		07F255A31E62C38E0046EBD9 /* PVNES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F255991E62C2320046EBD9 /* PVNES.framework */; };
 		07F255A41E62C38E0046EBD9 /* PVSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2559A1E62C2320046EBD9 /* PVSupport.framework */; };
 		07F255A71E62C3A30046EBD9 /* PVNES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F255A51E62C3A30046EBD9 /* PVNES.framework */; };
@@ -91,6 +92,8 @@
 		0737CB0B1E1A5127003D8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0737D1B51E1A940F003D8DF8 /* EmulatorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorScene.swift; sourceTree = "<group>"; };
 		0737D1D11E1AB120003D8DF8 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		07B3C4B724CF1F3500A36FC8 /* microMachines.nes */ = {isa = PBXFileReference; lastKnownFileType = file; name = microMachines.nes; path = roms/microMachines.nes; sourceTree = "<group>"; };
+		07B3C4B824CF1F3500A36FC8 /* bomberman.nes */ = {isa = PBXFileReference; lastKnownFileType = file; name = bomberman.nes; path = roms/bomberman.nes; sourceTree = "<group>"; };
 		07F255991E62C2320046EBD9 /* PVNES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVNES.framework; path = Carthage/Build/watchOS/PVNES.framework; sourceTree = "<group>"; };
 		07F2559A1E62C2320046EBD9 /* PVSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVSupport.framework; path = Carthage/Build/watchOS/PVSupport.framework; sourceTree = "<group>"; };
 		07F255A51E62C3A30046EBD9 /* PVNES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVNES.framework; path = Carthage/Build/watchOS/PVNES.framework; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 		07F255981E62C18B0046EBD9 /* roms */ = {
 			isa = PBXGroup;
 			children = (
+				07B3C4B824CF1F3500A36FC8 /* bomberman.nes */,
+				07B3C4B724CF1F3500A36FC8 /* microMachines.nes */,
 				07F255AB1E62C3B90046EBD9 /* smb3.nes */,
 			);
 			name = roms;
@@ -346,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B3C4BA24CF1F3500A36FC8 /* bomberman.nes in Resources */,
 				0737CB0A1E1A5127003D8DF8 /* Assets.xcassets in Resources */,
 				07F255AD1E62C3B90046EBD9 /* smb3.nes in Resources */,
 			);
