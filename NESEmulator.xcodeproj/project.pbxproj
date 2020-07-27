@@ -563,8 +563,9 @@
 					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/win32",
 					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/x64",
 				);
+				MARKETING_VERSION = 1.1;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -590,8 +591,9 @@
 					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/win32",
 					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/x64",
 				);
+				MARKETING_VERSION = 1.1;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -613,7 +615,8 @@
 				IBSC_MODULE = NESEmulator_WatchKit_Extension;
 				INFOPLIST_FILE = "NESEmulator WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -635,7 +638,8 @@
 				IBSC_MODULE = NESEmulator_WatchKit_Extension;
 				INFOPLIST_FILE = "NESEmulator WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -655,7 +659,8 @@
 				);
 				INFOPLIST_FILE = NESEmulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -671,7 +676,8 @@
 				);
 				INFOPLIST_FILE = NESEmulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.backslash-f.NESEmulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
